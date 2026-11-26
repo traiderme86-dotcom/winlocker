@@ -9,13 +9,12 @@ version = 1.0
 # Разрешения
 android.permissions = INTERNET
 
-# Настройки экрана (портрет, на весь экран)
+# Автоматическое принятие лицензий SDK (это исправит ошибку)
+android.accept_sdk_license = True
+
+# Настройки экрана
 orientation = portrait
 fullscreen = 1
 
-# Используемые библиотеки
+# Библиотеки
 requirements = python3,kivy
-
-# Архитектуры (arm64 для современных телефонов)
-android.archs = arm64-v8a
-android.allow_backup = True
