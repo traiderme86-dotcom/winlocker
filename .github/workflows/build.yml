@@ -21,6 +21,10 @@ jobs:
       run: |
         pip3 install --user --upgrade buildozer cython==0.29.36 virtualenv
         
+    - name: Accept Android Licenses
+      run: |
+        yes | sdkmanager --licenses || true
+        
     - name: Build with Buildozer
       run: |
         export PATH=$PATH:$HOME/.local/bin
