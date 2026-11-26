@@ -9,7 +9,7 @@ version = 1.0
 # Разрешения
 android.permissions = INTERNET
 
-# Автоматическое принятие лицензий SDK (это исправит ошибку)
+# Автоматическое принятие соглашения SDK
 android.accept_sdk_license = True
 
 # Настройки экрана
